@@ -4,7 +4,6 @@ export function loadMenuPage() {
     const mainContentDiv = document.getElementById("content");
 
     mainContentDiv.innerHTML = '';
-    mainContentDiv.classList.add("green-background");
 
     let mainHeader = document.createElement("h1");
     mainHeader.innerHTML = "Welcome to Ryan's Foodmatorium!";
