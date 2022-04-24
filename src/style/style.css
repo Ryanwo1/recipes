@@ -1,0 +1,14 @@
+.main-nav-bar {
+    display: flex;
+    margin-bottom: 5rem;
+    gap: 2rem;
+}
+
+body {
+    background-color: red;
+}
+
+.green-background {
+    background-color: green;
+}
+
