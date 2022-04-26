@@ -20,7 +20,7 @@ export function loadPage() {
 
   let introductoryText = document.createElement("p");
   introductoryText.innerHTML =
-    "Test test test";
+    "Test after";
 
   mainContentDiv.appendChild(mainHeader);
   mainContentDiv.appendChild(myIcon);
