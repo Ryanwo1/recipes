@@ -2,6 +2,7 @@ import Icon from "../src/img/Sliced-Tomato-Salad_EXPS_SCMBZ19_122886_C01_24_2b-1
 
 export function loadMenuPage() {
     const mainContentDiv = document.getElementById("content");
+    mainContentDiv.classList.remove("green-background");
 
     mainContentDiv.innerHTML = '';
 
@@ -14,11 +15,9 @@ export function loadMenuPage() {
 
     let introductoryText = document.createElement("p");
     introductoryText.innerHTML =
-      "MENU TIME";
+      "MENU TIME! Yay";
   
     mainContentDiv.appendChild(mainHeader);
-    mainContentDiv.appendChild(myIcon);
-    mainContentDiv.appendChild(introductoryText);
-  
+
     return mainContentDiv;
 }
